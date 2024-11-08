@@ -71,7 +71,7 @@ export default function SliderSection() {
           <div>
             <Slider className="" {...settings1}>
               <div data-aos="fade-up" className="iteamx">
-                <div className="iteam relative w-[60%] ">
+                <div className="iteam relative w-[50%] ">
                   <video
                     className="absolute md:ps-3 ps-2 rounded-[40px] top-0 left-0 w-[95%] h-full object-cover z-0"
                     autoPlay
@@ -93,7 +93,7 @@ export default function SliderSection() {
               </div>
 
               <div data-aos="fade-up" className="iteamx">
-                <div className="iteam relative w-[60%]  ">
+                <div className="iteam relative w-[50%]  ">
                   <img
                     className="absolute md:ps-3 ps-2 rounded-[40px] top-0 left-0 w-[95%] h-full object-cover z-0"
                     src={img1}
@@ -110,7 +110,7 @@ export default function SliderSection() {
               </div>
 
               <div data-aos="fade-up" className="iteamx">
-                <div className="iteam relative w-[60%] ">
+                <div className="iteam relative w-[50%] ">
                   <video
                     className="absolute md:ps-3 ps-2 rounded-[40px] top-0 left-0 w-[95%] h-full object-cover z-0"
                     autoPlay
@@ -133,7 +133,7 @@ export default function SliderSection() {
 
               <div data-aos="fade-up" className="iteamx">
                 {" "}
-                <div className="iteam relative w-[60%] ">
+                <div className="iteam relative w-[50%] ">
                   <img
                     className="absolute md:ps-3 ps-2 rounded-[40px] top-0 left-0 w-[95%] h-full object-cover z-0"
                     src={img2}
