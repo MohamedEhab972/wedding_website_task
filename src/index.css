@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Playwrite GB S", cursive;
+}
+
+.react-multi-carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.react-multiple-carousel__arrow {
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px solid var(--secondary-color);
+  background-color: transparent;
+}
+.react-multiple-carousel__arrow::before {
+  color: var(--secondary-color);
+}
+.react-multiple-carousel__arrow--right {
+  right: 0 !important;
+}
+.react-multiple-carousel__arrow--left {
+  left: 0 !important;
+}
+
+.unColor {
+  color: white !important;
+  background-color: rgba(104, 60, 8, 0.846) !important;
+}
+@media screen and (min-width: 768px) {
+  .unColor {
+    color: white !important;
+    background-color: transparent !important;
+  }
+}
+.iteamx {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.enabled\:hover\:bg-cyan-800:hover:enabled {
+  background-color: #4a2608dc !important;
+}
+
